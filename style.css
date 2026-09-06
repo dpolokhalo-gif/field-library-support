@@ -75,9 +75,12 @@ footer {
   padding: 24px;
 }
 
+.footer-links { display: flex; gap: 22px; }
+
 @media (max-width: 540px) {
   .topbar { padding: 18px 18px; }
   main { padding: 52px 18px; }
   nav { gap: 14px; }
+  .footer-links { gap: 14px; }
   .panel, .notice { padding: 21px; }
 }
